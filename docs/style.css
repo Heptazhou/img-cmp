@@ -1,0 +1,31 @@
+body {
+	padding-bottom: 30px;
+	background-color: #c3c3c3;
+	color: #000000;
+	font-size: 17px;
+}
+
+body, table {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+img.graph {
+	width: 100%;
+	box-sizing: border-box;
+	border: 0;
+	padding: 20px;
+}
+
+p {
+	clear: both;
+	line-height: 1.25em;
+	text-align: justify;
+}
+
+th {
+	background-color: #aabbff;
+}
+
+table, .math {
+	background-color: #eeeeee;
+}

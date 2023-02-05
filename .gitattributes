@@ -1,0 +1,7 @@
+
+* -linguist-vendored linguist-detectable
+/docs/** -linguist-documentation
+
+*.min.js linguist-vendored
+*.svg linguist-vendored
+pnpm-lock.yaml linguist-vendored

@@ -1,0 +1,95 @@
+body {
+	margin: 0 auto 0 auto;
+	padding-bottom: 30px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	max-width: 876px;
+	font-size: 15px;
+	background-color: #333333;
+}
+
+a {
+	color: #66ccff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	clear: both;
+	line-height: 1.25em;
+	text-align: justify;
+}
+
+img.caption {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	display: block;
+}
+
+div.caption {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.demo {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	padding-bottom: 0;
+	background-color: #1c1b22;
+}
+
+.demo table .title {
+	text-align: center;
+}
+
+.demo table .center-head {
+	font-weight: bold;
+	font-family: Consolas, Courier, monospace;
+	font-size: 1.5em;
+	text-align: center;
+	width: 8em;
+}
+
+.demo .caption {
+	margin: 1.5em 1em 0.2em 1em;
+	padding-bottom: 2em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.img-comp-container {
+	position: relative;
+}
+
+.img-comp-img {
+	position: absolute;
+	overflow: hidden;
+}
+
+.img-comp-img canvas {
+	display: block;
+	vertical-align: middle;
+}
+
+.img-comp-slider {
+	position: absolute;
+	z-index: 9;
+	cursor: ew-resize;
+	width: 40px;
+	height: 40px;
+	background-color: #2196f3;
+	opacity: 0.7;
+	border-radius: 50%;
+}
